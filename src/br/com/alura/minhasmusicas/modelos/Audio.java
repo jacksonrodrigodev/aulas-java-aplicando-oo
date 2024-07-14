@@ -3,9 +3,9 @@ package br.com.alura.minhasmusicas.modelos;
 public class Audio {
 
     private String titulo;
-    private int totalRproducoes;
+    private int totalReproducoes;
     private int totalCurtidas;
-    private double classificacao;
+    private int classificacao;
 
     public String getTitulo() {
         return titulo;
@@ -15,15 +15,15 @@ public class Audio {
         this.titulo = titulo;
     }
 
-    public int getTotalRproducoes() {
-        return totalRproducoes;
+    public int getTotalReproducoes() {
+        return totalReproducoes;
     }
 
     public int getTotalCurtidas() {
         return totalCurtidas;
     }
 
-    public double getClassificacao() {
+    public int getClassificacao() {
         return classificacao;
     }
 
@@ -32,7 +32,7 @@ public class Audio {
     }
 
     public void reproduz(){
-        this.totalRproducoes++;
+        this.totalReproducoes++;
     }
 
 
